@@ -1,0 +1,13 @@
+pipeline {
+  agent any
+  stages {
+    stage('stage1') {
+      steps{
+        script {
+		  println "hi welcome to my first pac"
+        }
+      }
+    }
+  }
+}
+  
